@@ -1,0 +1,48 @@
+/*basic comment */
+
+body{background-color: blanchedalmond;} /*background colour*/
+
+header{
+    background-color: coral;
+    color:blueviolet; /*change colour of text*/
+    text-align: center; /*text alignment*/
+    border: 0.2em red solid;
+    
+}
+
+h1
+{
+    font-size: 2em;/*standard font size is 16px; 1em is 16px*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* multiple fonts to catch if the specfifies font is not available*/
+    font-weight: bolder;
+}
+
+nav
+{
+    background-color: aquamarine;
+    color: coral;
+    width: 15%;
+    float: left;
+    height: 600px;
+}
+
+section
+{
+    width: 80%;
+    float: left;
+    padding-left: 0.5em;
+}
+
+footer
+{
+    clear: both;
+    background-color: darkgreen;
+    padding: 0em 2em 0em;
+    /*
+    Padding: the space between the content and element border.
+        1 value: All directions apply
+        2 Value: top-bottom, left-right respectively
+        3 Value: top, left-right, bottom respectively
+        4 value: top, right, bottom, left clockwise
+    */
+}
