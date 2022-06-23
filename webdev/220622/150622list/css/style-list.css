@@ -1,0 +1,14 @@
+.heading-4 /* the dot represents a class in the html file*/
+{
+    background-color: rgb(17, 143, 228);
+    padding: 1em 0;
+    border: 1px solid whitesmoke;
+    color: aquamarine;
+    border-radius: 150px;
+    text-align: center;
+}
+
+#nine-patch /* hash tag represents a id in the html file*/
+{
+    list-style-type: square;
+}
