@@ -1,0 +1,6 @@
+#top-menu
+{
+  list-style-type: none;
+  padding: 0; /*remove default values for margin*/
+  margin: 0; /*remove default values for margin*/
+}
