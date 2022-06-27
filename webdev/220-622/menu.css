@@ -1,0 +1,31 @@
+#main-menu
+{
+    list-style-type: none; /*removes bulletin*/
+    background-color: rgb(202, 249, 226);
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    padding: 0%; /*removes all padding in relation the area borders*/
+    margin: auto; /* will centre the element within the available space*/
+}
+
+#main-menu li a
+{
+    display: block;
+    color: maroon;
+    text-decoration: none; /*removes underline*/
+    border-bottom: 1px solid blue;
+    padding: 0.8em 0.2em;
+}
+
+#main-menu li a:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.active
+{
+    background-color: orangered;
+    color: yellow;
+}
