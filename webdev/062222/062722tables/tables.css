@@ -1,0 +1,125 @@
+#books /*Id of the table in html is books*/
+{
+    width: 100%;
+    border-collapse: collapse; /* will collapse the borders around the th and tb elements*/
+    border: 3px double darkblue;
+}
+
+#books td, #books th /* styling within this element will be applied to the th and tb of books in html. This also shows applying style to more than one element*/
+{
+    border: 1px solid blue;
+    padding: 0.6em;
+}
+
+#books th /*applies styling to table head (th) only*/
+{
+    border: 3px double;
+    color: darkblue;
+    background-color: gainsboro;
+}
+
+#books tr:hover /*eg of a pseudo-class ie hover*/
+{
+    border: 3px double;
+    color: rgb(75, 218, 210);
+    background-color: rgb(155, 12, 12);
+}
+
+/* 
+    A psuedo-class represents a state of a selector. These start with a single colon(:)
+    A psuedo-element is used to select virtual elments; These start with a double colon(::)
+*/
+
+#books tr:nth-child(2) /* "nth" meaning a number 1, 2, 3, even, odd, etc.. Therfore in this case styling the 2nd row (child) of the table (parent). The child of the parent element*/
+{
+    background-color: aliceblue;
+}
+
+
+
+#records /*Id of the table in html is books*/
+{
+    width: 100%;
+    border-collapse: collapse; /* will collapse the borders around the th and tb elements*/
+    border: 3px double darkblue;
+}
+
+#records td, #books th /* styling within this element will be applied to the th and tb of books in html. This also shows applying style to more than one element*/
+{
+    border: 1px solid blue;
+    padding: 0.6em;
+}
+
+#records th /*applies styling to table head (th) only*/
+{
+    border: 3px double;
+    color: darkblue;
+    background-color: rgb(141, 36, 211);
+}
+
+#records tr:hover /*eg of a pseudo-class ie hover*/
+{
+    border: 3px double;
+    color: rgb(75, 218, 210);
+    background-color: rgba(155, 12, 12, 0.842);
+}
+
+#records tr:nth-child(odd) /* "nth" meaning a number 1, 2, 3, even, odd, etc.. Therfore in this case styling the 2nd row (child) of the table (parent). The child of the parent element*/
+{
+    background-color: rgb(119, 171, 216);
+}
+
+#invoice /*Id of the table in html is books*/
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px double darkblue;
+}
+
+#invoice td
+{
+    border: 1px solid green;
+    padding: 1em;
+}
+
+#invoice tr:nth-child(8)
+{
+    background-color: black;
+}
+
+#invoice caption
+{
+    caption-side: bottom;
+}
+
+
+
+
+
+#matchdata /*Id of the table in html is books*/
+{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px double darkblue;
+}
+
+#matchdata td
+{
+    border: 1px solid darkblue;
+    padding: 1em;
+}
+
+#matchdata caption
+{
+    caption-side: top;
+}
+
+#matchdata tr td:nth-child(7)
+{
+    background-color: rgb(119, 171, 216);
+}
+
+#lol
+{
+    background-color: violet;
+}
