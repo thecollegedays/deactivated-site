@@ -1,0 +1,25 @@
+#top-menu
+{
+  list-style-type: none;
+  padding: 0; /*remove default values for margin*/
+  margin: 0; /*remove default values for margin*/
+  /*elements typical comees with a default margin and padding.
+  Additional, though not visible all elements has a border*/
+  overflow: hidden;
+  background-color: #dbcc45;
+  position: sticky;
+  top: 0;
+}
+
+#top-menu li
+{
+  float:left;
+}
+
+#top-menu li a
+{
+  color: #258DCE;
+  text-decoration: none;
+  padding: 0.9em 1.2em;
+  display: block;
+}
